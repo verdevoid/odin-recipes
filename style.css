@@ -1,9 +1,11 @@
 html {
     display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(188,235,203);
 }
 
-h1, h2, h3, h4, h5, h6, ul, ol {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+header {
+    margin: 15px;
 }
 
 a {
@@ -13,14 +15,17 @@ a {
 
 .grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     grid-gap: 20px;
     padding: 10px;
 }
 
 .recipe-card {
+    background-color: rgb(247,255,246);
     height: 100%;
     width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
 }
 
 .recipe-card img {
