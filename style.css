@@ -39,10 +39,30 @@ a {
     background-color: rgb(247,255,246);
     border-radius: 20px;
     margin: 30px;
+    padding: 20px;
 }
 
-.recipe-body {
-    padding: 20px;
+
+.recipe-body a, .recipe-body p, .recipe-body li {
+    font-size: 18px;
+}
+
+.recipe-body li {
+    margin: 15px 35px 15px 35px;
+}
+
+.recipe-body h1 {
+    margin: 0 0 15px 0;
+    text-align: center;
+}
+
+.recipe-body h2 {
+    margin: 15px 0 15px 0;
+}
+
+.recipe-body img {
+    display: block;
+    margin: 0 auto 0 auto;
 }
 
 * {
