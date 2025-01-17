@@ -35,6 +35,16 @@ a {
     object-fit: cover;
 }
 
+.recipe-header, .recipe-body {
+    background-color: rgb(247,255,246);
+    border-radius: 20px;
+    margin: 30px;
+}
+
+.recipe-body {
+    padding: 20px;
+}
+
 * {
     margin: 0;
     padding: 0;
