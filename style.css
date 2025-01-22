@@ -26,7 +26,7 @@ a {
     width: fit-content;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 10px rgb(148, 148, 148)
+    box-shadow: 5px 10px rgb(148, 148, 148)
 }
 
 .recipe-card img {
