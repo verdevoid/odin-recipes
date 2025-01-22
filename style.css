@@ -6,6 +6,7 @@ html {
 
 header {
     margin: 15px;
+    text-align: center;
 }
 
 a {
@@ -26,7 +27,7 @@ a {
     width: fit-content;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: 5px 10px rgb(148, 148, 148)
+    box-shadow: rgba(148, 148, 148, 0.50) 0 0 20px;
 }
 
 .recipe-card img {
