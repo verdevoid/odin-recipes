@@ -1,7 +1,7 @@
 html {
     display: block;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(188,235,203);
+    background-color: rgb(208, 233, 239);
 }
 
 header {
@@ -11,7 +11,8 @@ header {
 
 a {
     font-size: 24px;
-    text-decoration: none;   
+    text-decoration: none;
+    color: rgb(34, 32, 32); 
 }
 
 .grid {
@@ -27,7 +28,16 @@ a {
     width: fit-content;
     padding: 20px;
     border-radius: 20px;
-    box-shadow: rgba(148, 148, 148, 0.50) 0 0 20px;
+    box-shadow: rgba(80, 79, 79, 0.5) 0 0 20px;
+}
+
+.recipe-card:hover {
+    background-color: rgb(206, 218, 208);
+    height: 100%;
+    width: fit-content;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: rgba(50, 49, 49, 0.5) 0 0 20px;
 }
 
 .recipe-card img {
